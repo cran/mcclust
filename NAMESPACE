@@ -1,4 +1,6 @@
 useDynLib("mcclust")
 export("arandi","binder","cltoSim","comp.psm","laugreen","maxpear","medv","minbinder","norm.label",
 "pear","relabel","Simtocl","vi.dist")
-
+importFrom("stats", "as.dist", "cutree", "hclust")
+importFrom("utils", "combn")
+importFrom("lpSolve", "lp", "lp.transport")

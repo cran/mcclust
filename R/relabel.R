@@ -20,7 +20,7 @@ function(cls, print.loss=TRUE){
     n <- ncol(cls)
     M <- nrow(cls)
     
-    loss.val <- log(nclus)*n*M  # Gibt Verlustfunktionswert, wenn Gleichverteilung für jede Beobachtung vorliegt
+    loss.val <- log(nclus)*n*M  # Gibt Verlustfunktionswert, wenn Gleichverteilung fuer jede Beobachtung vorliegt
     if(print.loss) cat("Value Loss Function:", loss.val,"\n")
     repeat{
         # Step 1

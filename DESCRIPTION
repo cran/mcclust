@@ -1,7 +1,7 @@
 Package: mcclust
 Type: Package
 Title: Process an MCMC Sample of Clusterings
-Version: 1.0
+Version: 1.0.1
 Date: 2009-05-22
 Author: Arno Fritsch
 Depends: R (>= 2.10), lpSolve
@@ -13,6 +13,7 @@ Description: Implements methods for processing a sample of (hard)
         posterior similarity matrix or a relabelling algorithm.
 License: GPL (>= 2)
 LazyLoad: yes
-Packaged: 2012-07-23 10:10:08 UTC; ripley
+Packaged: 2022-05-02 10:08:07 UTC; hornik
 Repository: CRAN
-Date/Publication: 2012-07-23 10:35:32
+Date/Publication: 2022-05-02 13:01:54 UTC
+NeedsCompilation: yes
